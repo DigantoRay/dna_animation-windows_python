@@ -9,9 +9,13 @@ Created on Wed Jul 23 23:17:31 2025.
 import time
 import sys
 import csv
+import os
 
-
-with open('DNA.csv') as dna_file:
+if os.path.isfile('DNA.csv'):
+    file_path = 'DNA.csv'
+else:
+    file_path = 'dist\\DNA.csv'
+with open(file_path) as dna_file:
     dna_reader = csv.reader(dna_file)
     dna_strings = list(dna_reader)
     try:
