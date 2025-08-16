@@ -2,4 +2,4 @@ This is a python project compatible with Windows. It includes a .exe file in the
 
 One can zoom out for a slightly better "resolution" animation.  Also, if the project file structure is changed or if the files in the dist folder are moved elsewhere, the project may not work.
 
-See my profiles for questions. Here is how to recreate an environment from a YAML file with Conda: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#
+Anything I make is under the free, open-source MIT License but please do email me if anything is used for a project (I'd love to learn of the project).  See my profile for questions/contact. Here is how to recreate an environment from a YAML file with Conda: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#
